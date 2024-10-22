@@ -26,7 +26,7 @@ jobs:
    deploy-helm:
     environment: ${{ inputs.environment }}
     runs-on: ubuntu-latest
-    name: deploy todoapp to kind cluster via Helm
+    name: Deploy todoapp to kind cluster via Helm
 
     steps:
     - name: Download cluster config
